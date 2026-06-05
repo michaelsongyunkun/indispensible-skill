@@ -1,0 +1,4 @@
+interface:
+  display_name: "MVP Shipping Loop"
+  short_description: "Turns ideas or vibe-coding prompts into working local MVP apps with tests and browser QA."
+  default_prompt: "Use $mvp-product-shipping-loop to extract MVP requirements from this prompt or product idea, build the working local app, run tests, and verify it in browser."

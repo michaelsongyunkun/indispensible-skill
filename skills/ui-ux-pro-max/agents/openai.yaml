@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI/UX Pro Max"
+  short_description: "Designs, reviews, and polishes high-quality UI/UX across web and mobile apps."
+  default_prompt: "Use $ui-ux-pro-max to design or improve this interface with strong UX, accessibility, responsive layout, visual polish, and a distinctive frontend direction."

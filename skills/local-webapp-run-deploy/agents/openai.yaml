@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Web App Run Deploy"
+  short_description: "Run, verify, and deploy local web apps."
+  default_prompt: "Use this skill when my local web app cannot open, needs reliable startup after reboot, needs browser launch verification, or should be deployed to GitHub."

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Cinematic Video Workflow"
+  short_description: "Storyboard-to-video workflow orchestration."
+  default_prompt: "Use $cinematic-video-workflow to turn my short-video idea into a screenplay, geometry sheets, and a Vidu-ready video plan."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,5 @@
+interface:
+  display_name: "AI Entertainment App Builder"
+  short_description: "Builds quiz, tarot, idol matching, and personality apps with explainable results."
+  default_prompt: "Use $ai-entertainment-app-builder to build this playful quiz or matching app with a polished result flow."
+

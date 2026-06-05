@@ -1,0 +1,96 @@
+{
+  "project_name": "Sample",
+  "user_input": {},
+  "screenplay": {
+    "title": "",
+    "summary": "",
+    "characters": [],
+    "scenes": [],
+    "shots": [],
+    "naturalization_pass": {
+      "status": "not_run",
+      "environment_changes": [],
+      "action_changes": [],
+      "notes": ""
+    },
+    "quality_gate": {
+      "status": "not_run",
+      "scores": {
+        "hook": 0,
+        "pacing": 0,
+        "motivation": 0,
+        "dialogue_economy": 0,
+        "shootability": 0
+      },
+      "issues": [],
+      "revision_notes": ""
+    },
+    "realism_pass": {
+      "status": "not_run",
+      "physical_constraints": [],
+      "optical_constraints": [],
+      "lighting_constraints": [],
+      "material_constraints": [],
+      "environment_constraints": [],
+      "generation_constraints": []
+    },
+    "motion_naturalness_pass": {
+      "status": "not_run",
+      "motion_rules": [],
+      "fixed_actions": [],
+      "negative_motion_constraints": []
+    },
+    "shot_language_pass": {
+      "status": "not_run",
+      "coverage": [],
+      "notes": ""
+    },
+    "performance_layer": {
+      "status": "not_run",
+      "character_beats": [],
+      "notes": ""
+    },
+    "scene_continuity_check": {
+      "status": "not_run",
+      "continuity_map": [],
+      "issues": [],
+      "notes": ""
+    }
+  },
+  "character_designs": [],
+  "scene_designs": [],
+  "video_plan": {
+    "global_prompt": "",
+    "shot_prompts": [],
+    "transitions": [],
+    "audio_notes": ""
+  },
+  "final_video": {
+    "status": "not_requested",
+    "output_ref": "",
+    "notes": "",
+    "realism_review": {
+      "status": "not_run",
+      "scores": {
+        "identity_consistency": 0,
+        "motion_believability": 0,
+        "lighting_continuity": 0,
+        "camera_naturalness": 0,
+        "material_texture_realism": 0,
+        "anatomy_scale_correctness": 0,
+        "scene_geography_stability": 0
+      },
+      "issues": [],
+      "successful_elements": [],
+      "retry_prompt": ""
+    }
+  },
+  "artifact_manifest": {
+    "run_dir": "",
+    "files": [],
+    "external_refs": [],
+    "skipped": []
+  },
+  "execution_log": [],
+  "errors": []
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Screenplay Writer"
+  short_description: "Write cinematic Chinese screenplays."
+  default_prompt: "Use $screenplay-writer to write a cinematic Chinese short film script."
+
+policy:
+  allow_implicit_invocation: true

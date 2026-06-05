@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resume Rewriter"
+  short_description: "Evidence-safe resume rewriting into Word DOCX files."
+  default_prompt: "Use $resume-rewriter to improve my resume for this job description and output a Word DOCX without fabricating details."

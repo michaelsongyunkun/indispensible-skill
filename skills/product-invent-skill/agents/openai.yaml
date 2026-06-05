@@ -1,0 +1,6 @@
+interface:
+  display_name: "Product Invent Skill"
+  short_description: "Product ideas to verified MVPs"
+  default_prompt: "Use $product-invent-skill to turn my product idea, app, SaaS, website, AI tool, or MVP request into a scoped, planned, built, and verified product."
+policy:
+  allow_implicit_invocation: true

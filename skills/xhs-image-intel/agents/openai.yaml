@@ -1,0 +1,15 @@
+interface:
+  display_name: "XHS Image Intel"
+  short_description: "Collect XHS notes and extract image intelligence."
+  default_prompt: "Use $xhs-image-intel to collect public or authorized Xiaohongshu notes for a theme and extract structured information from their images."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "xiaohongshu-mcp"
+      description: "Local Xiaohongshu MCP server used for authorized note search and detail retrieval."
+      transport: "streamable_http"
+      url: "http://localhost:18060/mcp"
+
+policy:
+  allow_implicit_invocation: true

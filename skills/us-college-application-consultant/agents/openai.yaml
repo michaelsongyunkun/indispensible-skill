@@ -1,0 +1,4 @@
+interface:
+  display_name: "US College Consultant"
+  short_description: "Builds the admissions consultant product across planning, RAG, exports, analytics, and admin."
+  default_prompt: "Use $us-college-application-consultant to work on my US college admissions consultant product, including planning Agent, knowledge/RAG, exports, analytics, admin dashboard, and permissions."

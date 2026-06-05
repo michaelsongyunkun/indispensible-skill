@@ -1,0 +1,4 @@
+interface:
+  display_name: "Knowledge Doc Builder"
+  short_description: "Turns research, datasets, recipes, and nutrition material into verified docs and indexes."
+  default_prompt: "Use $knowledge-doc-builder to turn this source material into a structured Markdown/Word knowledge-base document, CSV/JSON index, and audit; include food/nutrition checks when relevant."

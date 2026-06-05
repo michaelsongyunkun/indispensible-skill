@@ -1,0 +1,5 @@
+interface:
+  display_name: "Design Master Skill"
+  short_description: "Recreate the COR SeniorFriend comparison-page design language."
+  default_prompt: "Use $design-master-skill to design a polished education comparison page in the COR SeniorFriend style."
+

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Xianxia Longform Writer"
+  short_description: "Writes and audits serialized Chinese fiction with xianxia continuity and payoff control."
+  default_prompt: "Use $xianxia-longform-writer to continue or revise this xianxia chapter while preserving continuity and payoff rhythm."
