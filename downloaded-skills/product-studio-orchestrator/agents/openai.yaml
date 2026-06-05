@@ -1,0 +1,5 @@
+interface:
+  display_name: "Product Studio Orchestrator"
+  short_description: "Coordinate a product build with scoped Codex subagents."
+  default_prompt: "Use product-studio-orchestrator to build this product with subagents. Start with product_strategist and ux_architect if scope is unclear, then split frontend_builder and backend_builder with disjoint write scopes, run qa_reviewer, and verify before completion."
+

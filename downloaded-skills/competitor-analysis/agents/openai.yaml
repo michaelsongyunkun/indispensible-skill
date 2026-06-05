@@ -1,0 +1,4 @@
+interface:
+  display_name: "Competitor Analysis"
+  short_description: "Map competitors, positioning, pricing, and strategic gaps."
+  default_prompt: "Use $competitor-analysis to compare my product or idea against competitors, identify differentiation opportunities, and recommend a positioning wedge."

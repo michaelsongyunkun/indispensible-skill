@@ -1,0 +1,4 @@
+interface:
+  display_name: "Web Crawler"
+  short_description: "Extract, clean, enrich, and export structured web data"
+  default_prompt: "Use $web-crawler to inspect a website, suggest selectors, extract list and detail-page fields, clean the data, and export CSV, Excel, and JSON."

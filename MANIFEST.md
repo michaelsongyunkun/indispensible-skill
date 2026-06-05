@@ -7,6 +7,7 @@ Generated on 2026-06-05 from Michael Song's local Codex skill set.
 | Label | Meaning |
 |---|---|
 | Self-developed / locally customized | Built, strengthened, or merged around Michael's repeated work. |
+| Downloaded / local helper | Downloaded or locally installed skill that Michael uses often, but is not claimed as self-developed. |
 | Merged but not included | Old skill whose useful capability was folded into a canonical skill; old folder is not stored in this repository. |
 | Excluded downloaded/plugin skill | Available locally, but not included here because it is not Michael-specific. |
 
@@ -39,33 +40,46 @@ Generated on 2026-06-05 from Michael Song's local Codex skill set.
 | `recipe-nutrition-data-builder` | `knowledge-doc-builder` |
 | `frontend-design` | `ui-ux-pro-max` |
 
-## Excluded Local Skills
+## Downloaded / Local Helper Skills Included
 
-These were intentionally not copied because they are downloaded, plugin-provided, system-provided, or not clearly Michael-specific:
+| Skill | Source root | Purpose |
+|---|---|---|
+| `chatgpt-apps` | `~/.codex/skills` | ChatGPT Apps SDK applications with MCP server and widget UI. |
+| `competitor-analysis` | `~/.codex/skills` | Competitor research, market landscape, positioning, pricing, and differentiation. |
+| `define-goal` | `~/.codex/skills` | Turn fuzzy goals into concrete objectives and success criteria. |
+| `figma-create-new-file` | `~/.codex/skills` | Create new Figma or FigJam files. |
+| `figma-generate-design` | `~/.codex/skills` | Translate app pages, code, or descriptions into Figma screens. |
+| `figma-use` | `~/.codex/skills` | Required prerequisite before Figma tool calls. |
+| `gh-address-comments` | `~/.codex/skills` | Address GitHub PR review or issue comments. |
+| `gh-fix-ci` | `~/.codex/skills` | Debug failing GitHub Actions checks. |
+| `linear` | `~/.codex/skills` | Manage Linear issues and project workflows. |
+| `mcp-builder` | `~/.codex/skills` | Build MCP servers for external APIs and services. |
+| `notion-research-documentation` | `~/.codex/skills` | Research across Notion and synthesize documentation. |
+| `notion-spec-to-implementation` | `~/.codex/skills` | Turn Notion specs into implementation plans and tasks. |
+| `openai-docs` | `~/.codex/skills` | OpenAI API/Product/Codex docs-first guidance. |
+| `pdf` | `~/.codex/skills` | PDF reading, generation, rendering, and layout checks. |
+| `playwright` | `~/.codex/skills` | Browser automation from terminal. |
+| `playwright-interactive` | `~/.codex/skills` | Persistent browser/Electron interaction for UI debugging. |
+| `product-studio-orchestrator` | `~/.agents/skills` | Multi-agent product collaboration and orchestration. |
+| `security-best-practices` | `~/.codex/skills` | Security best-practice reviews for supported languages. |
+| `security-threat-model` | `~/.codex/skills` | Threat modeling for repositories and app designs. |
+| `sentry` | `~/.codex/skills` | Inspect Sentry issues and production error data. |
+| `screenshot` | `~/.codex/skills` | Desktop or system screenshot capture. |
+| `speech` | `~/.codex/skills` | Text-to-speech narration and voiceover. |
+| `together-video` | `~/.codex/skills` | Together AI text-to-video and image-to-video generation. |
+| `transcribe` | `~/.codex/skills` | Audio/video transcription and speaker labeling. |
+| `vidu-skills` | `~/.agents/skills` | Vidu API/CLI image, video, TTS, lip-sync, and task workflows. |
+| `web-crawler` | `~/.codex/skills` | Compliant web crawling and structured export. |
+| `yeet` | `~/.codex/skills` | Explicit commit, push, and PR flow. |
 
-- `chatgpt-apps`
-- `competitor-analysis`
-- `define-goal`
-- `figma-*`
-- `gh-*`
-- `linear`
-- `mcp-builder`
-- `notion-*`
-- `openai-docs`
-- `pdf`
-- `playwright`
-- `playwright-interactive`
-- `security-*`
-- `sentry`
-- `screenshot`
-- `speech`
-- `together-video`
-- `transcribe`
-- `web-crawler`
-- `yeet`
+## Excluded Plugin/System Skills
+
+These are intentionally not copied because they are plugin-provided, system-provided, or better installed through their original plugin mechanism:
+
 - plugin namespaces such as Browser, Documents, Figma, GitHub, HyperFrames, Notion, Presentations, Spreadsheets, Superpowers, and Vercel
+- system skills such as `skill-creator`, `skill-installer`, `plugin-creator`, and `imagegen`
 
-If one of these is later confirmed as Michael-developed or heavily customized, move it into `skills/` and update this manifest.
+If a downloaded/local helper skill is later heavily customized into Michael-specific behavior, move it from `downloaded-skills/` into `skills/` and update this manifest.
 
 ## Old Skill Versions Not Included
 

@@ -9,12 +9,13 @@ This repository contains the skills and workflows that were developed or heavily
 | Path | Purpose |
 |---|---|
 | `skills/` | Active self-developed or locally customized Codex skills. Use these as the canonical versions. |
+| `downloaded-skills/` | Frequently used downloaded or locally installed skills that are useful alongside Michael's own skills. Kept separate from `skills/` so provenance stays clear. |
 | `workflows/` | Obsidian-friendly workflow maps and operating playbooks. |
 | `MANIFEST.md` | Skill inventory, source/status notes, and merge map. |
 
 ## Install
 
-Copy any active skill folder into your Codex skills directory:
+Copy any self-developed active skill folder into your Codex skills directory:
 
 ```powershell
 Copy-Item -Recurse .\skills\mvp-product-shipping-loop "$env:USERPROFILE\.codex\skills\mvp-product-shipping-loop"
@@ -25,6 +26,13 @@ For a full install on Windows:
 ```powershell
 $repo = "C:\path\to\indispensible-skill"
 Copy-Item -Recurse -Force "$repo\skills\*" "$env:USERPROFILE\.codex\skills\"
+```
+
+To also install the downloaded/local helper skills:
+
+```powershell
+$repo = "C:\path\to\indispensible-skill"
+Copy-Item -Recurse -Force "$repo\downloaded-skills\*" "$env:USERPROFILE\.codex\skills\"
 ```
 
 Restart Codex or open a new thread after installing so the skill list refreshes.
@@ -46,6 +54,38 @@ Restart Codex or open a new thread after installing so the skill list refreshes.
 - `xhs-image-intel`
 - `xianxia-longform-writer`
 
+## Downloaded / Local Helper Skills
+
+These are included because Michael uses them often, but they are kept outside the self-developed `skills/` directory:
+
+- `chatgpt-apps`
+- `competitor-analysis`
+- `define-goal`
+- `figma-create-new-file`
+- `figma-generate-design`
+- `figma-use`
+- `gh-address-comments`
+- `gh-fix-ci`
+- `linear`
+- `mcp-builder`
+- `notion-research-documentation`
+- `notion-spec-to-implementation`
+- `openai-docs`
+- `pdf`
+- `playwright`
+- `playwright-interactive`
+- `product-studio-orchestrator`
+- `security-best-practices`
+- `security-threat-model`
+- `sentry`
+- `screenshot`
+- `speech`
+- `together-video`
+- `transcribe`
+- `vidu-skills`
+- `web-crawler`
+- `yeet`
+
 ## Workflow Map
 
 Start with:
@@ -66,4 +106,4 @@ It documents which skills to use for common workflows:
 
 ## Notes
 
-Downloaded/plugin/system skills and old superseded skill versions are intentionally not copied here unless they were locally customized into Michael-specific active workflows. This repository is meant to preserve Michael's current operating layer, not mirror every available Codex plugin or keep obsolete duplicates.
+Plugin/system skills and old superseded skill versions are intentionally not copied here. Downloaded/local helper skills are included in `downloaded-skills/` only when they are part of Michael's frequent operating layer.

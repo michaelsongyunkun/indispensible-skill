@@ -13,6 +13,12 @@ tags:
 
 这页是 Michael Song 的 Codex 工作能力索引：记录常用 skill、来源标注、合并关系、以及日常高频工作流。
 
+仓库收录规则：
+
+- `skills/`：自己开发/本地定制的 active canonical skills。
+- `downloaded-skills/`：下载/本地安装且经常使用的 helper skills。
+- 插件/系统内置 skill 不收录；旧版本 skill 不收录。
+
 ## 来源标注规则
 
 | 标注 | 含义 | 判断依据 |
