@@ -40,14 +40,20 @@ Restart Codex or open a new thread after installing so the skill list refreshes.
 ## Active Canonical Skills
 
 - `ai-entertainment-app-builder`
+- `agent-team-harness`
 - `cinematic-video-workflow`
+- `codex-multi-agent-operating-system`
+- `context-pack-builder`
 - `design-master-skill`
 - `knowledge-doc-builder`
 - `local-webapp-run-deploy`
+- `multi-agent-product-studio`
 - `mvp-product-shipping-loop`
+- `parallel-research-synthesis`
 - `product-invent-skill`
 - `resume-rewriter`
 - `screenplay-writer`
+- `subagent-code-review-board`
 - `ui-ux-pro-max`
 - `us-college-application-consultant`
 - `vibe-coding-prompt-generator`
@@ -61,6 +67,8 @@ These are included because Michael uses them often, but they are kept outside th
 - `chatgpt-apps`
 - `competitor-analysis`
 - `define-goal`
+- `dispatching-parallel-agents`
+- `executing-plans`
 - `figma-create-new-file`
 - `figma-generate-design`
 - `figma-use`
@@ -75,15 +83,21 @@ These are included because Michael uses them often, but they are kept outside th
 - `playwright`
 - `playwright-interactive`
 - `product-studio-orchestrator`
+- `requesting-code-review`
 - `security-best-practices`
 - `security-threat-model`
 - `sentry`
 - `screenshot`
+- `subagent-driven-development`
+- `systematic-debugging`
 - `speech`
 - `together-video`
 - `transcribe`
+- `using-git-worktrees`
+- `verification-before-completion`
 - `vidu-skills`
 - `web-crawler`
+- `writing-plans`
 - `yeet`
 
 ## Workflow Map
@@ -103,6 +117,7 @@ It documents which skills to use for common workflows:
 - resume/JD rewriting
 - MCP, ChatGPT Apps, and agent/tool integration
 - GitHub, CI, deployment, and production debugging
+- Multi-agent Codex operating loops: agent-team planning, parallel research, subagent development, review boards, and verification
 
 ## Notes
 
